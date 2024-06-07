@@ -1,0 +1,102 @@
+/* Tabela */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: rgb(128, 134, 240);
+  background: radial-gradient(circle, rgba(128, 134, 240, 1) 41%, rgb(84, 144, 168) 80%);
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 440px;
+}
+
+.form-container {
+  width: 50%;
+  background-color: #d4ebbd;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.Titulo {
+  margin-left: 500px;
+}
+
+.produtosTitulo {
+  color: #ffffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #d4ebbd;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label,
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #05668D;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #05668D;
+}
+
+.message-container {
+  width: 50%;
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  color: #333;
+}
+
+.title-message {
+  color: #547AA5;
+}
